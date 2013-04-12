@@ -1,0 +1,20 @@
+{
+  "name": "simple_rich_text_editor_with_contenteditable",
+  "version": "0.0.1",
+  "description": "simple text editor with contenteditable div sont an iframe",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": "",
+  "keywords": [
+    "html5",
+    "text editor",
+    "contenteditable"
+  ],
+  "author": {
+    "name": "Yahya Kacem",
+    "email": "fuj.tyoli@gmail.com"
+  },
+  "license": "BSD"
+}

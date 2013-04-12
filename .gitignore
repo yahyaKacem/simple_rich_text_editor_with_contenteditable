@@ -1,0 +1,28 @@
+##########################################################################
+############################ python specific #############################
+*.pyc
+##########################################################################
+######################## generic files to ignore #########################
+*~
+*.lock
+*.swp
+*.out
+##########################################################################
+############################ files to ignore #############################
+   ######## structure of the files in this project for human ##########
+file_structure
+   #### to use with a custom script that create a file structure ######
+struct
+##########################################################################
+######################### directories to ignore ##########################
+    ############## temp directory for developement env ###############
+src/.tmp/
+    ################# directory for production env ###################
+build/
+    ########################### for sass #############################
+.sass-cache/
+    ##### The next are installed based on the versions listed in #####
+    ### `package.json` when you do `npm install` in this directory ###
+node_modules/
+    ################# libs will probably not be use ##################
+src/not_used_libs/
