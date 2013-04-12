@@ -5,7 +5,8 @@
     "jquery": null,
     "underscore": null,
     "font-awesome": null,
-    "sass-bootstrap": null
+    "sass-bootstrap": null,
+    "jquery.contenteditable": "~0.1.0"
   },
   "ignore": [
     "**/.*",
