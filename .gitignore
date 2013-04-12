@@ -24,5 +24,6 @@ build/
     ##### The next are installed based on the versions listed in #####
     ### `package.json` when you do `npm install` in this directory ###
 node_modules/
-    ################# libs will probably not be use ##################
-src/not_used_libs/
+    ##### The next are installed based on the versions listed in #####
+    # `component.json` when you do `bower install` in this directory #
+
