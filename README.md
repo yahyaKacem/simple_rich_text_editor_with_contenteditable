@@ -1,4 +1,4 @@
 Simple text editor with contenteditable
 ========================================
 
-Simple text editor with contenteditable not with an iframe.
+simple text editor with contenteditable div not with an iframe.
