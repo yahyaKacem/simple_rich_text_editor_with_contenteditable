@@ -12,7 +12,9 @@
     "name": "Yahya Kacem",
     "email": "fuj.tyoli@gmail.com"
   },
-  "license": "BSD",
+  "licenses": {
+    "type": "BSD"
+  },
   "main": "index.js",
   "scripts": {
     "test": ""
