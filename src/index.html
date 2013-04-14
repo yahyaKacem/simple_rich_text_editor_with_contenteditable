@@ -1,0 +1,65 @@
+<!doctype html>
+<html ng-app="plunker" >
+<head>
+  <meta charset="utf-8">
+  <title>AngularJS Plunker</title>
+  <script>
+    document.write('<base href="' + document.location + '" />');
+  </script>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body ng-controller="MainCtrl">
+  <header class="navbar-fixed-top well">
+    <hgroup>
+      <div class="btn-group">
+        <span class="btn btn-mini" ng-mousedown="doFormat('bold', null)">
+          <i class="icon-bold"></i>
+        </span>
+        <span class="btn btn-mini" ng-mousedown="doFormat('italic', null)">
+          <i class="icon-italic"></i>
+        </span>
+        <span class="btn btn-mini" ng-mousedown="doFormat('underline', null)">
+          <i class="icon-underline"></i>
+        </span>
+        <span
+          class="btn btn-mini"
+          ng-mousedown="doFormat('strikeThrough', null)"
+        >
+          <i class="icon-strikethrough"></i>
+        </span>
+      </div>
+      <div class="btn-group">
+        <span
+          class="btn btn-mini color-picker-red"
+          ng-mousedown="doFormat('ForeColor', 'red')"
+        >
+          &#9670;
+        </span>
+        <span
+          class="btn btn-mini color-picker-blue"
+          ng-mousedown="doFormat('ForeColor', 'blue')"
+        >
+          &#9670;
+        </span>
+        <span
+          class="btn btn-mini color-picker-green"
+          ng-mousedown="doFormat('ForeColor', 'green')"
+        >
+          &#9670;
+        </span>
+      </div>
+    </hgroup>
+  </header>
+  <div class="container well">
+    <div class="containment-wrapper">
+      <div class="editor" contenteditable="true">azerty</div>
+    </div>
+  </div>
+  <script src="libs/unstable-angular-complete/angular.js"></script>
+  <script src="scripts/vars.js"></script>
+  <script src="scripts/controllers/main.js"></script>
+  <script src="scripts/app.js"></script>
+  <script src="scripts/services/main.js"></script>
+  <script src="scripts/filters/main.js"></script>
+</body>
+</html>

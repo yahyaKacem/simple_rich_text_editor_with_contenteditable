@@ -1,0 +1,41 @@
+@import '../libs/sass-bootstrap/lib/bootstrap.scss';
+@import '../libs/font-awesome/sass/font-awesome.scss';
+@import "compass/css3/box-sizing";
+body {
+  margin: 100px;
+}
+.containment-wrapper {
+  width: 550px;
+  height: 350px;
+  padding: 25px;
+  margin-top: 25px;
+  background: #555;
+  outline: 1px solid #000000;
+  @include box-sizing(border-box);
+  .editor {
+    border: 1px solid #ccc;
+    @include box-sizing(border-box);
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    background: #ffffff;
+  }
+  .editor:focus,
+  .editor:hover,
+  .editor:active {
+    outline: none;
+  }
+}
+.color-picker-red {
+  color: red;
+  background: red;
+}
+.color-picker-blue {
+  color: blue;
+  background: blue;
+}
+.color-picker-green {
+  color: green;
+  background: green;
+}
+@import '../libs/sass-bootstrap/lib/responsive.scss';

@@ -67,6 +67,14 @@ module.exports = function(grunt) {
     qunit: {
       files: ['test/**/*.html']
     },
+    compass: {
+      common: {
+        options: {
+          sassDir: 'src/scss/',
+          cssDir: 'src/styles/'
+        }
+      }
+    },
     watch: {
       gruntfile: {
         files: '<%= jshint.gruntfile.src %>',
@@ -75,6 +83,10 @@ module.exports = function(grunt) {
       lib_test: {
         files: '<%= jshint.lib_test.src %>',
         tasks: ['jshint:lib_test', 'qunit']
+      },
+      compass: {
+        files: 'src/scss/*.scss',
+        tasks: ['compass']
       }
     }
   });
