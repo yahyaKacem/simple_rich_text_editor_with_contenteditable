@@ -2,11 +2,11 @@
   "name": "simple_rich_text_editor_with_contenteditable",
   "version": "0.0.1",
   "dependencies": {
-    "jquery": null,
     "underscore": null,
     "font-awesome": null,
     "sass-bootstrap": null,
-    "jquery.contenteditable": "~0.1.0"
+    "angular-bootstrap": null,
+    "unstable-angular-complete": null
   },
   "ignore": [
     "**/.*",

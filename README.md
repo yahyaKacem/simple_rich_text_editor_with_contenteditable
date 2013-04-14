@@ -1,4 +1,4 @@
-Simple text editor with contenteditable
-========================================
+Simple rich text editor with contenteditable
+============================================
 
-simple text editor with contenteditable div not with an iframe.
+Simple rich text editor with contenteditable div not with an iframe with AngularJs and AngularJS-ui/bootstrap.

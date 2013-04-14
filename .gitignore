@@ -9,8 +9,6 @@
 *.out
 ##########################################################################
 ############################ files to ignore #############################
-   ######## structure of the files in this project for human ##########
-file_structure
    #### to use with a custom script that create a file structure ######
 struct
 ##########################################################################
