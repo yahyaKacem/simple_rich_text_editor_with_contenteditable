@@ -14,7 +14,7 @@ struct
 ##########################################################################
 ######################### directories to ignore ##########################
     ############## temp directory for developement env ###############
-src/.tmp/
+src/styles/
     ################# directory for production env ###################
 build/
     ########################### for sass #############################
@@ -25,5 +25,3 @@ node_modules/
     ##### The next are installed based on the versions listed in #####
     # `component.json` when you do `bower install` in this directory #
 src/libs/
-    ##################### grunt banner template #######################
-grunt/
